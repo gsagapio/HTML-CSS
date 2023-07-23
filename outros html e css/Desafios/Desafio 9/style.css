@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+picture {
+    text-align: center;
+}
+
+body {
+    text-align: center;
+    background-color: black;
+}

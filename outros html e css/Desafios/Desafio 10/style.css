@@ -1,0 +1,145 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header {
+    background-image: linear-gradient(to top, #166338, #298b57, #34ac6a);
+    height: 200px;
+    width: 1300px;
+    order: 20px;
+    padding: 20px;
+    margin: 20px auto 20px auto;
+    outline: 5px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size:1.5em;
+    text-align: center;
+    box-shadow: 1px 3px 1px 3px rgba(39, 37, 37, 0.185);
+    color: aliceblue;
+}
+
+div {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 0.9em;
+    color: #24bb6a;
+    }
+
+div#div1 {
+    display: inline-block;
+    text-align: center;
+    height: 1.5em;
+    width: 5em;
+}
+
+div#div2 {
+    display: inline-block;
+    text-align: center;
+    height: 1.5em;
+    width: 5em;
+}
+
+div#div3 {
+    display: inline-block;
+    text-align: center;
+    height: 1.5em;
+    width: 6em;
+}
+
+div#div4 {
+    display: inline-block;
+    text-align: center;
+    height: 1.5em;
+    width: 5em;
+}
+
+#div1:hover {
+    background-color: #249657;
+    border-radius: 5px;
+}
+
+#div2:hover {
+    background-color: #249657;
+    border-radius: 5px;
+}
+
+#div3:hover {
+    background-color: #249657;
+    border-radius: 5px;
+}
+
+#div4:hover {
+    background-color: #249657;
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgb(235, 228, 228);
+}
+
+main {
+    background-color: white;
+    height: 2350px;
+    width: 1000px;
+    order: 20px;
+    padding: 20px;
+    margin: 20px auto 20px auto;
+    outline: 5px;
+    border-radius: 0em 0em 2em 2em;
+    box-shadow: 3px 2px 3px 2px rgba(0, 0, 0, 0.178);
+    text-align: justify;
+    font-size: 1.15em;
+}
+
+#i {
+    text-align: center;
+    
+}
+
+article#art1 {
+    height: 350px;
+    width: 900px;
+    order: 20px;
+    padding: 30px 40px 0px 40px;
+    margin: 10px;
+    background-color: #166338;
+    text-align: center;
+    border-radius: 3em;
+}
+
+aside {
+    background-color: #68F79C;
+    border-radius: 1em;
+    padding: 0px 3px 0px 3px;
+}
+
+#h {
+    color: aliceblue;
+    font-size: 1em;
+    background-color: #166338;
+    border-radius: 1em;
+}
+
+h2 {
+    font-family: 'idroid';
+    color: #166338;
+    background-image: linear-gradient(to right, #68F79C, #b0f3c910);
+}
+
+strong {
+    color: #166338;
+}
+
+.link {
+    background-color: #68F79C;
+    color: #166338;
+    font-style: oblique;
+}
+
+footer {
+    background-color: #166338;
+    color: aliceblue;
+    font-size: 1em;
+    text-align: center;
+}
+
+#divx {
+    text-align: center;
+}
