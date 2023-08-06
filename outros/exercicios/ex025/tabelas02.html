@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas Semanticas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td,th {
+            border: 1px solid black;
+            padding: 10px;
+            
+        }
+
+        caption {
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead, tfoot {
+            background-color: rgb(61, 55, 55);
+            color: white;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        tbody > tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(61, 55, 55);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <caption>
+            População (fictícia) das unidades federativas
+        </caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 30px;">População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 019</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 169 879</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Estado 4</td>
+                <td class="num">15 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 5</td>
+                <td class="num">14 000 159</td>
+            </tr>
+            <tr>
+                <td>Estado 6</td>
+                <td class="num">13 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 7</td>
+                <td class="num">12 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 8</td>
+                <td class="num">11 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 9</td>
+                <td class="num">10 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 10</td>
+                <td class="num">9 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 11</td>
+                <td class="num">8 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 12</td>
+                <td class="num">7 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 13</td>
+                <td class="num">6 000 000</td>
+            </tr>
+            <tr>
+                <td>Estado 14</td>
+                <td class="num">5 000 000</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <th scope="row">Total de Habitantes</th>
+            <td class="num">194.354.000</td>
+        </tfoot>
+
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem ut cupiditate aut impedit deserunt, saepe est repudiandae velit alias delectus iusto id obcaecati quia placeat voluptatum et maiores, recusandae consequuntur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores nulla rem, corrupti ullam reiciendis nisi obcaecati nemo eum, dicta pariatur ea voluptates exercitationem voluptatibus quibusdam mollitia unde. Necessitatibus, distinctio ipsa! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil ducimus officiis laborum iure dolor error nam consequuntur excepturi dolore eum hic exercitationem nulla, harum possimus odit quis soluta neque doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas vitae debitis consequuntur aperiam, enim officiis eius fuga provident. Reprehenderit maxime est quos placeat aliquam accusantium itaque expedita aperiam fugiat commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur voluptas dolore eos suscipit nihil quaerat veritatis id molestiae facere voluptatem ullam similique eius animi nulla inventore, possimus error dignissimos nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae laboriosam nam quas quae, libero est velit nisi saepe odio vel mollitia fugit iste incidunt beatae expedita dignissimos voluptas ratione ut? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque mollitia porro omnis consequuntur provident temporibus molestiae repellendus in sunt pariatur velit magni sed saepe earum commodi, repellat tempore minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit odio accusamus repellat, nisi ipsam commodi quae, similique blanditiis provident magnam reiciendis unde praesentium quam pariatur. Eaque soluta commodi tenetur!</p>
+</body>
+</html>
