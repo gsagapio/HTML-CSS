@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filmes em Tabela</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 400px;
+        }
+
+        caption {
+            padding: .7em;
+            font-size: 1.3em;
+            font-weight: bolder;
+        }
+        td, th {
+            border: 1px  solid darkgray;
+            padding: .7em;
+        }
+
+        #name {
+            background-color: rgba(0, 0, 255, 0.493);
+        }
+        .nome {
+            background-color: rgba(127, 255, 212, 0.514);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+    <table>
+        <caption>
+            Filmes Favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col" id="name">Nomes</th>
+                <th scope="colgroup" colspan="3">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Mulheres</th>
+                <td class="nome">Ana Maria Santos</td>
+                <td>Alien</td>
+                <td>Rambo</td>
+                <td>Vingadores</td>
+            </tr>
+            <tr>
+                <td class="nome">Beatriz Souza</td>
+                <td>Hulk</td>
+                <td>Inception</td>
+                <td>Batman</td>
+            </tr>
+            <tr>
+                <td class="nome">Claudia Melo</td>
+                <td>Oblivion</td>
+                <td>Matrix</td>
+                <td>Big marco</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="3">Homens</th>
+                <td class="nome">Bruno Mendonça</td>
+                <td>Intocaveis</td>
+                <td>Aminesia</td>
+                <td>Gladiadores</td>
+            </tr>
+            <tr>
+                <td class="nome">Daniel Lorenço</td>
+                <td>Wall-E</td>
+                <td>Oldboy</td>
+                <td>Dangal</td>
+            </tr>
+            <td class="nome">Fabiano Mota</td>
+            <td>Star Wars 5</td>
+            <td>Taxi Driver</td>
+            <td>Toy Story 2</td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="4">Total</th>
+                <td>1000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
