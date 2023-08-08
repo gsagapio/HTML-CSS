@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+
+caption {
+    padding: .5em;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+td {
+    border: 1px  solid black;
+    padding: 1em;
+    text-align: center;
+}
+
+th {
+    border: 1px  solid black;
+    padding: 1em;
+    font-size: 1.1em;
+}
+
+.estilo{
+    background-color: rgb(136, 123, 123);
+    color: white;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.473);
+}
+
+#esquerda {
+    text-align: left;
+}
