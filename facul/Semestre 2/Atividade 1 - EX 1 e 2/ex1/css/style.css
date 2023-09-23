@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    margin-top: 100px;
+    margin-left: 350px;
+}
+
+header {
+    display: flex;  
+}
+
+p {
+    border: solid 1px black;
+    border-radius: 1em 1em 0em 0em;
+    font-size: 1.1em;
+    text-align: center;
+    width: 150px;
+    height: 2em;
+    background-color: yellow;
+    padding-top:.5em;
+}
+
+main {
+    border: solid 1px black;
+    border-radius: 0em .3em .3em 0em;
+    background-color: yellow;
+    height: 300px;
+    width: 650px;
+    margin-top: -1.1em;
+}

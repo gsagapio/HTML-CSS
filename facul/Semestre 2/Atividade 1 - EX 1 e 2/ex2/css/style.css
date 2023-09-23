@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#container {
+    width: 350px;
+    height: 150px;
+    background-color: rgb(238, 22, 191);
+}
+
+#pg {
+    color: white;
+    font-size: 1.2em;
+    padding-left: 1em;
+    padding-top: 100px;
+}
+
+#link {
+    color: blue;
+}
+
+p {
+    text-align: left;
+}
+
+footer {
+    border-top: solid 1px black;
+    margin-top: 2em;
+}
