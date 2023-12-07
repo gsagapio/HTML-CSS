@@ -6,8 +6,9 @@
     <title>Menu Responsivo</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link  href="https://fonts.googleapis.com/icon?family=Mterial+Icons" rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/mediaq.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>
             Meu Site
@@ -32,6 +33,14 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            if (window.innerwidth >= 768) {
+                itens.style.display = 'block'
+            } else {
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu(){
            if (itens.style.display == 'block'){
                 itens.style.display = 'none'
